@@ -142,3 +142,7 @@ C:\Users\Jurgen\source\repos\JurgenMatthijsLv\Honden_Asiel_Unit_Test_demo\src\Ho
 C:\Users\Jurgen\source\repos\JurgenMatthijsLv\Honden_Asiel_Unit_Test_demo\src\Hondenasiel\obj\Debug\netcoreapp3.1\ref\Hondenasiel.dll
 C:\Users\Jurgen\source\repos\JurgenMatthijsLv\Honden_Asiel_Unit_Test_demo\src\Hondenasiel\obj\Debug\netcoreapp3.1\Hondenasiel.pdb
 C:\Users\Jurgen\source\repos\JurgenMatthijsLv\Honden_Asiel_Unit_Test_demo\src\Hondenasiel\obj\Debug\netcoreapp3.1\Hondenasiel.genruntimeconfig.cache
+E:\Projects\Honden_Asiel_Unit_Test_demo\src\Hondenasiel\bin\Debug\netcoreapp3.1\ref\Hondenasiel.dll
+E:\Projects\Honden_Asiel_Unit_Test_demo\src\Hondenasiel\obj\Debug\netcoreapp3.1\ref\Hondenasiel.dll
+E:\Projects\Honden_Asiel_Unit_Test_demo\src\Hondenasiel\bin\Debug\netcoreapp3.1\Hondenasiel.Common.dll
+E:\Projects\Honden_Asiel_Unit_Test_demo\src\Hondenasiel\bin\Debug\netcoreapp3.1\Hondenasiel.Common.pdb

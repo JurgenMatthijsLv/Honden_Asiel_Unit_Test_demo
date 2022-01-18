@@ -1,0 +1,10 @@
+E:\Projects\Honden_Asiel_Unit_Test_demo\src\Hondenasiel.Common\bin\Debug\netcoreapp3.1\Hondenasiel.Common.deps.json
+E:\Projects\Honden_Asiel_Unit_Test_demo\src\Hondenasiel.Common\bin\Debug\netcoreapp3.1\Hondenasiel.Common.dll
+E:\Projects\Honden_Asiel_Unit_Test_demo\src\Hondenasiel.Common\bin\Debug\netcoreapp3.1\Hondenasiel.Common.pdb
+E:\Projects\Honden_Asiel_Unit_Test_demo\src\Hondenasiel.Common\obj\Debug\netcoreapp3.1\Hondenasiel.Common.csproj.AssemblyReference.cache
+E:\Projects\Honden_Asiel_Unit_Test_demo\src\Hondenasiel.Common\obj\Debug\netcoreapp3.1\Hondenasiel.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\Honden_Asiel_Unit_Test_demo\src\Hondenasiel.Common\obj\Debug\netcoreapp3.1\Hondenasiel.Common.AssemblyInfoInputs.cache
+E:\Projects\Honden_Asiel_Unit_Test_demo\src\Hondenasiel.Common\obj\Debug\netcoreapp3.1\Hondenasiel.Common.AssemblyInfo.cs
+E:\Projects\Honden_Asiel_Unit_Test_demo\src\Hondenasiel.Common\obj\Debug\netcoreapp3.1\Hondenasiel.Common.csproj.CoreCompileInputs.cache
+E:\Projects\Honden_Asiel_Unit_Test_demo\src\Hondenasiel.Common\obj\Debug\netcoreapp3.1\Hondenasiel.Common.dll
+E:\Projects\Honden_Asiel_Unit_Test_demo\src\Hondenasiel.Common\obj\Debug\netcoreapp3.1\Hondenasiel.Common.pdb

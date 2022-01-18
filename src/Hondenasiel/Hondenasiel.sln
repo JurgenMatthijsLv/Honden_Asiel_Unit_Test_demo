@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.32112.339
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hondenasiel", "Hondenasiel.csproj", "{9CF39F60-E02E-4A35-ACB6-8D02D7347267}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hondenasiel.tests", "..\Hondenasiel.tests\Hondenasiel.tests.csproj", "{E0D5576A-30BD-4940-931D-E5F45BC6F638}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hondenasiel.tests", "..\Hondenasiel.tests\Hondenasiel.tests.csproj", "{E0D5576A-30BD-4940-931D-E5F45BC6F638}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hondenasiel.Common", "..\Hondenasiel.Common\Hondenasiel.Common.csproj", "{5FF4A4D8-5B58-4D36-AF78-322700C285DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hondenasiel.Common", "..\Hondenasiel.Common\Hondenasiel.Common.csproj", "{8E285A91-1742-4D19-B6B0-8AF687E912A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{E0D5576A-30BD-4940-931D-E5F45BC6F638}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0D5576A-30BD-4940-931D-E5F45BC6F638}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0D5576A-30BD-4940-931D-E5F45BC6F638}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5FF4A4D8-5B58-4D36-AF78-322700C285DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5FF4A4D8-5B58-4D36-AF78-322700C285DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5FF4A4D8-5B58-4D36-AF78-322700C285DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5FF4A4D8-5B58-4D36-AF78-322700C285DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E285A91-1742-4D19-B6B0-8AF687E912A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E285A91-1742-4D19-B6B0-8AF687E912A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E285A91-1742-4D19-B6B0-8AF687E912A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E285A91-1742-4D19-B6B0-8AF687E912A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

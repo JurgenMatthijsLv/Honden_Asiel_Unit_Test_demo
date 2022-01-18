@@ -1,5 +1,6 @@
 using Hondenasiel.Application.Commands;
 using Hondenasiel.Application.Queries;
+using Hondenasiel.Common;
 using Hondenasiel.Controllers;
 using Hondenasiel.Infrastructure.Database;
 using Hondenasiel.Infrastructure.Webapi;
@@ -39,7 +40,7 @@ namespace Hondenasiel
 
 			services.AddDbContext<HondenasielDbContext>(opt =>
 			{
-				opt.UseSqlServer(Configuration.GetConnectionString("HondenasielDbContext")).EnableSensitiveDataLogging(true);
+				opt.UseSqlServer(Configuration.GetConnectionString(Constants.HondenasielDbContext)).EnableSensitiveDataLogging(true);
 			});
 
 			//Repositories

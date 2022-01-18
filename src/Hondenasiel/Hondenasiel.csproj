@@ -2,8 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <BaseOutputPath>C:\Users\Jurgen\source\repos\JurgenMatthijsLv\Honden_Asiel_Unit_Test_demo\src\Hondenasiel\bin</BaseOutputPath>
-    <BaseIntermediateOutputPath>C:\Users\Jurgen\source\repos\JurgenMatthijsLv\Honden_Asiel_Unit_Test_demo\src\Hondenasiel\obj</BaseIntermediateOutputPath>
     <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
     <GenerateDocumentationFile>False</GenerateDocumentationFile>
   </PropertyGroup>
@@ -23,6 +21,10 @@
     </PackageReference>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
     <PackageReference Include="System.IO.Abstractions" Version="16.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Hondenasiel.Common\Hondenasiel.Common.csproj" />
   </ItemGroup>
 
 

@@ -1,33 +1,109 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jurgen\\Source\\Repos\\JurgenMatthijsLv\\Honden_Asiel_Unit_Test_demo\\src\\Hondenasiel\\Hondenasiel.csproj": {}
+    "E:\\Projects\\Honden_Asiel_Unit_Test_demo\\src\\Hondenasiel\\Hondenasiel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jurgen\\Source\\Repos\\JurgenMatthijsLv\\Honden_Asiel_Unit_Test_demo\\src\\Hondenasiel\\Hondenasiel.csproj": {
+    "E:\\Projects\\Honden_Asiel_Unit_Test_demo\\src\\Hondenasiel.Common\\Hondenasiel.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jurgen\\Source\\Repos\\JurgenMatthijsLv\\Honden_Asiel_Unit_Test_demo\\src\\Hondenasiel\\Hondenasiel.csproj",
-        "projectName": "Hondenasiel",
-        "projectPath": "C:\\Users\\Jurgen\\Source\\Repos\\JurgenMatthijsLv\\Honden_Asiel_Unit_Test_demo\\src\\Hondenasiel\\Hondenasiel.csproj",
-        "packagesPath": "C:\\Users\\Jurgen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jurgen\\Source\\Repos\\JurgenMatthijsLv\\Honden_Asiel_Unit_Test_demo\\src\\Hondenasiel\\obj\\",
+        "projectUniqueName": "E:\\Projects\\Honden_Asiel_Unit_Test_demo\\src\\Hondenasiel.Common\\Hondenasiel.Common.csproj",
+        "projectName": "Hondenasiel.Common",
+        "projectPath": "E:\\Projects\\Honden_Asiel_Unit_Test_demo\\src\\Hondenasiel.Common\\Hondenasiel.Common.csproj",
+        "packagesPath": "C:\\Users\\jurge\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\Honden_Asiel_Unit_Test_demo\\src\\Hondenasiel.Common\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Jurgen\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\jurge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Projects\\Honden_Asiel_Unit_Test_demo\\src\\Hondenasiel\\Hondenasiel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\Honden_Asiel_Unit_Test_demo\\src\\Hondenasiel\\Hondenasiel.csproj",
+        "projectName": "Hondenasiel",
+        "projectPath": "E:\\Projects\\Honden_Asiel_Unit_Test_demo\\src\\Hondenasiel\\Hondenasiel.csproj",
+        "packagesPath": "C:\\Users\\jurge\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\Honden_Asiel_Unit_Test_demo\\src\\Hondenasiel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jurge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\Projects\\Honden_Asiel_Unit_Test_demo\\src\\Hondenasiel.Common\\Hondenasiel.Common.csproj": {
+                "projectPath": "E:\\Projects\\Honden_Asiel_Unit_Test_demo\\src\\Hondenasiel.Common\\Hondenasiel.Common.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -95,7 +171,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

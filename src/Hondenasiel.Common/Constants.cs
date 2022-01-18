@@ -1,7 +1,7 @@
 ﻿namespace Hondenasiel.Common
 {
-    public class Constants
-    {
-        public const string HondenasielDbContext = "HondenasielDbContext";
-    }
+	public static class Constants
+	{
+		public const string HondenasielDbContext = "HondenasielDbContext";
+	}
 }
