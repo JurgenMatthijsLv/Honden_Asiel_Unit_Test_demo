@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Hondenasiel.Infrastructure.Database
 {
-	internal class QueryRefRepository : IQueryRefRepository
+	public class QueryRefRepository : IQueryRefRepository
 	{
 		private readonly HondenasielDbContext _hondenasielDbContext;
 
@@ -26,7 +26,7 @@ namespace Hondenasiel.Infrastructure.Database
 
 		public async Task<Ras> GetRasByCode(string rasCode)
 		{
-			return await _hondenasielDbContext.Rassen.FirstAsync(x => x.Code == rasCode);
+           return await _hondenasielDbContext.Rassen.FirstAsync(x => x.Code == rasCode);
 		}
 	}
 }

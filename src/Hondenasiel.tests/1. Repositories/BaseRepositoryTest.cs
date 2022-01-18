@@ -46,6 +46,7 @@ namespace Hondenasiel.tests
             Fixture.AddManyTo(rassen, 5);
             _hondenasielDbCtx.Rassen.AddRange(
                 rassen.ToArray());
+            _hondenasielDbCtx.SaveChanges();
 
             //Kleur
             var kleuren = new List<Kleur>();
