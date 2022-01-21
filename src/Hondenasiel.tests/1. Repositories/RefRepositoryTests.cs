@@ -1,7 +1,9 @@
 using AutoFixture;
+using Hondenasiel.Domain.Ref;
 using Hondenasiel.Infrastructure.Database;
 using NUnit.Framework;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -35,10 +37,27 @@ namespace Hondenasiel.tests
                 
         }
 
-        [OneTimeTearDown]
+        [Test]
+        [TestCaseSource(typeof(HondenasielTestData), "RasTestData")]
+        public async Task GetRasByCode_geldige_rascode_geeft_corresponderend_ras(
+            Ras rasFromDataSource)
+        {
+            //Arrange
+
+            //Act
+            var ras  = await _sut.GetRasByCode(rasFromDataSource.Code);
+
+            //Assert
+            Assert.That(rasFromDataSource.Omschrijving, Is.EqualTo(
+                _hondenasielDbCtx.Rassen.FirstOrDefault(
+                    x => x.Code == ras.Code).Omschrijving));
+        }
+
+       [OneTimeTearDown]
         public void FinalTearDown() 
         {
         
         }
+
     }
 }
