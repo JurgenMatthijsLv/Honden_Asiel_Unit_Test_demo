@@ -8,3 +8,13 @@ E:\Projects\Honden_Asiel_Unit_Test_demo\src\Hondenasiel.Common\obj\Debug\netcore
 E:\Projects\Honden_Asiel_Unit_Test_demo\src\Hondenasiel.Common\obj\Debug\netcoreapp3.1\Hondenasiel.Common.csproj.CoreCompileInputs.cache
 E:\Projects\Honden_Asiel_Unit_Test_demo\src\Hondenasiel.Common\obj\Debug\netcoreapp3.1\Hondenasiel.Common.dll
 E:\Projects\Honden_Asiel_Unit_Test_demo\src\Hondenasiel.Common\obj\Debug\netcoreapp3.1\Hondenasiel.Common.pdb
+C:\Users\Jurgen\Source\Repos\JurgenMatthijsLv\Honden_Asiel_Unit_Test_demo\src\Hondenasiel.Common\bin\Debug\netcoreapp3.1\Hondenasiel.Common.deps.json
+C:\Users\Jurgen\Source\Repos\JurgenMatthijsLv\Honden_Asiel_Unit_Test_demo\src\Hondenasiel.Common\bin\Debug\netcoreapp3.1\Hondenasiel.Common.dll
+C:\Users\Jurgen\Source\Repos\JurgenMatthijsLv\Honden_Asiel_Unit_Test_demo\src\Hondenasiel.Common\bin\Debug\netcoreapp3.1\Hondenasiel.Common.pdb
+C:\Users\Jurgen\Source\Repos\JurgenMatthijsLv\Honden_Asiel_Unit_Test_demo\src\Hondenasiel.Common\obj\Debug\netcoreapp3.1\Hondenasiel.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jurgen\Source\Repos\JurgenMatthijsLv\Honden_Asiel_Unit_Test_demo\src\Hondenasiel.Common\obj\Debug\netcoreapp3.1\Hondenasiel.Common.AssemblyInfoInputs.cache
+C:\Users\Jurgen\Source\Repos\JurgenMatthijsLv\Honden_Asiel_Unit_Test_demo\src\Hondenasiel.Common\obj\Debug\netcoreapp3.1\Hondenasiel.Common.AssemblyInfo.cs
+C:\Users\Jurgen\Source\Repos\JurgenMatthijsLv\Honden_Asiel_Unit_Test_demo\src\Hondenasiel.Common\obj\Debug\netcoreapp3.1\Hondenasiel.Common.csproj.CoreCompileInputs.cache
+C:\Users\Jurgen\Source\Repos\JurgenMatthijsLv\Honden_Asiel_Unit_Test_demo\src\Hondenasiel.Common\obj\Debug\netcoreapp3.1\Hondenasiel.Common.dll
+C:\Users\Jurgen\Source\Repos\JurgenMatthijsLv\Honden_Asiel_Unit_Test_demo\src\Hondenasiel.Common\obj\Debug\netcoreapp3.1\Hondenasiel.Common.pdb
+C:\Users\Jurgen\Source\Repos\JurgenMatthijsLv\Honden_Asiel_Unit_Test_demo\src\Hondenasiel.Common\obj\Debug\netcoreapp3.1\Hondenasiel.Common.csproj.AssemblyReference.cache

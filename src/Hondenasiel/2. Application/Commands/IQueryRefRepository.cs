@@ -1,4 +1,5 @@
 ﻿using Hondenasiel.Domain.Ref;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace Hondenasiel.Application.Commands
@@ -10,5 +11,8 @@ namespace Hondenasiel.Application.Commands
 		Task<Kleur> GetKleurByCode(string kleurCode);
 
 		Task<Geslacht> GetGeslachtByCode(string geslachtCode);
+
+		Task<List<Ras>> GetAllRassen();
+		
 	}
 }

@@ -3,6 +3,7 @@ using Hondenasiel.Common;
 using Hondenasiel.Domain.Ref;
 using Hondenasiel.Infrastructure.Database;
 using Microsoft.EntityFrameworkCore;
+using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +17,7 @@ namespace Hondenasiel.tests
         protected DbContextOptionsBuilder<HondenasielDbContext>
             _dbCtxOptionsBuilder;
         private DbContextOptions<HondenasielDbContext> _dbCtxOptions;
+        private List<Ras> _rassen;
 
         protected HondenasielDbContext _hondenasielDbCtx;
 
@@ -35,21 +37,49 @@ namespace Hondenasiel.tests
 
             _hondenasielDbCtx = new HondenasielDbContext(_dbCtxOptions);
 
+            _rassen = new List<Ras>();
+
             VoegAnoniemeRefDataToe();
+            VoegConcreteDataToe();
+
+            _hondenasielDbCtx.Rassen.AddRange(
+                _rassen);
+            _hondenasielDbCtx.SaveChanges();
 
         }
 
         private void VoegAnoniemeRefDataToe() 
         {
             //Ras
-            var rassen = new List<Ras>();
-            Fixture.AddManyTo(rassen, 5);
-            _hondenasielDbCtx.Rassen.AddRange(
-                rassen.ToArray());
+            Fixture.AddManyTo(_rassen, 5);
 
-            //Kleur
-            var kleuren = new List<Kleur>();
-             Fixture.AddManyTo(kleuren, 5);
+
+        }
+
+        private void VoegConcreteDataToe() 
+        {
+            //Rassen
+            _rassen.Add(new Ras()
+            {
+                ID = Guid.NewGuid(),    
+                Code = "rasCodeA",
+                Omschrijving = "omschrijvingA"
+            });
+            
+            _rassen.Add(new Ras()
+            {
+                ID = Guid.NewGuid(),
+                Code = "rasCodeB",
+                Omschrijving = "omschrijvingB"
+            });
+            
+            _rassen.Add(new Ras()
+            {
+                ID = Guid.NewGuid(),
+                Code = "rasCodeC",
+                Omschrijving = "omschrijvingC"
+            });
+
         }
 
 
