@@ -13,6 +13,28 @@ namespace Hondenasiel.Domain.Asiel
 		public string Eigenaar { get; private set; }
 		public List<Hond> Honden { get; private set; }
 
+		private AsielRoot() { }
+
+		public static AsielRoot MaakAsiel(
+				Guid id,
+				string naam,
+				Adres adres,
+				string eigenaar,
+				List<Hond> honden
+			) 
+		{
+			var asiel = new AsielRoot()
+				{ 
+					ID = id,
+					Naam = naam,
+					Adres = adres,
+					Eigenaar = eigenaar,
+					Honden = honden
+				};
+
+			return asiel;
+		}
+
 		public void RegistreerHond(
 			Guid hondId,
 			string hondNaam,

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hondenasiel.Application.Commands
 {
-	internal class PasFotoAanCommandHandler : IRequestHandler<PasFotoAanCommand>
+	public class PasFotoAanCommandHandler : IRequestHandler<PasFotoAanCommand>
 	{
 		private readonly ICommandAsielRepository _CommandAsielRepo;
 

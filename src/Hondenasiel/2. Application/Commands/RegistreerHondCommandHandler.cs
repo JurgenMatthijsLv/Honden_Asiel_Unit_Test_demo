@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hondenasiel.Application.Commands
 {
-	internal class RegistreerHondCommandHandler : IRequestHandler<RegistreerHondCommand>
+	public class RegistreerHondCommandHandler : IRequestHandler<RegistreerHondCommand>
 	{
 		private readonly IQueryRefRepository _queryRefRepo;
 		private readonly ICommandAsielRepository _commandAsielRepo;

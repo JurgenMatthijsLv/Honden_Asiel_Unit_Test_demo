@@ -20,7 +20,12 @@
       "ProjectGuid": "5ff4a4d8-5b58-4d36-af78-322700c285da",
       "DisplayName": "Hondenasiel.Common",
       "ColorIndex": 2
+    },
+    "8e285a91-1742-4d19-b6b0-8af687e912a2": {
+      "ProjectGuid": "8e285a91-1742-4d19-b6b0-8af687e912a2",
+      "DisplayName": "Hondenasiel.Common",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 4
 }
